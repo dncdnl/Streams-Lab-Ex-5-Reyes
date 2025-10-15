@@ -30,7 +30,7 @@ namespace Streams_Lab_Ex_5_Reyes
             //Pasting a given code
             string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
-            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, FrmFileName.SetFileName)))
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, FrmFileName.SetFileName())))
             {
                 outputFile.WriteLine(getInput); Console.WriteLine(getInput);
             }
