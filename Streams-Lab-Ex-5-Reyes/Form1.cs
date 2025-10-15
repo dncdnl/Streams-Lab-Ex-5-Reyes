@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,6 +26,15 @@ namespace Streams_Lab_Ex_5_Reyes
 
             //Declaring a string variable to get the value of the text box
             string getInput = txtInput.Text;
+
+            //Pasting a given code
+            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, FrmFileName.SetFileName)))
+            {
+                outputFile.WriteLine(getInput); Console.WriteLine(getInput);
+            }
+
         }
     }
 }
