@@ -16,5 +16,11 @@ namespace Streams_Lab_Ex_5_Reyes
         {
             InitializeComponent();
         }
+
+        private void btnOkay_Click(object sender, EventArgs e)
+        {
+            // Calling a static variable to get the value of txtFileName
+            String SetFileName = txtFileName.Text + "txt";
+        }
     }
 }
