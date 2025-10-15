@@ -1,0 +1,7 @@
+Student no.: 5556565
+Full Name: Norris,First Name:,C
+Program: BS in Information Technology (BSIT)
+Gender: Male
+Age: 25
+Birthday: 11/13/1999
+Contact No.: 5555555555

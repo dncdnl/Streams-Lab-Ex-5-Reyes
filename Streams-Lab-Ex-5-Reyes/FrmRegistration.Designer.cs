@@ -219,9 +219,9 @@
             this.lblMi.ForeColor = System.Drawing.Color.White;
             this.lblMi.Location = new System.Drawing.Point(711, 91);
             this.lblMi.Name = "lblMi";
-            this.lblMi.Size = new System.Drawing.Size(107, 17);
+            this.lblMi.Size = new System.Drawing.Size(53, 17);
             this.lblMi.TabIndex = 13;
-            this.lblMi.Text = "First Name:";
+            this.lblMi.Text = "M.I.:";
             // 
             // txtMI
             // 

@@ -28,7 +28,9 @@ namespace Streams_Lab_Ex_5_Reyes
             string getInput = txtInput.Text;
 
             //Pasting a given code
-            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            //string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            string relativePath = @"../../Reyes, Danica , C. _LabStream";
+            string docPath = Path.GetFullPath(relativePath);
 
             using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, FrmFileName.SetFileName())))
             {

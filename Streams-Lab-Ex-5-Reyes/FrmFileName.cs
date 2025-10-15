@@ -25,9 +25,11 @@ namespace Streams_Lab_Ex_5_Reyes
         {
           
             // Calling a static variable to get the value of txtFileName
-            FileName = txtFileName.Text + "txt";
+            FileName = txtFileName.Text + ".txt";
             //calling the close method
             Close();
+            FrmRegistration frmRegistration = new FrmRegistration();
+            frmRegistration.Show();
 
         }
     }

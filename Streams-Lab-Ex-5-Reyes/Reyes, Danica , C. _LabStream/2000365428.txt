@@ -1,0 +1,7 @@
+Student no.: 2000365428
+Full Name: Reyes,First Name:,C
+Program: BS in Information Technology (BSIT)
+Gender: Female
+Age: 20
+Birthday: 04/25/2005
+Contact No.: 09998470156
