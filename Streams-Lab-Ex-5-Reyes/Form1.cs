@@ -16,5 +16,12 @@ namespace Streams_Lab_Ex_5_Reyes
         {
             InitializeComponent();
         }
+
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+            // Create an instance of FrmFileName and using a Show diaglog method
+            FrmFileName frmFileName = new FrmFileName();
+            frmFileName.ShowDialog();
+        }
     }
 }
