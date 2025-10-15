@@ -22,6 +22,9 @@ namespace Streams_Lab_Ex_5_Reyes
             // Create an instance of FrmFileName and using a Show diaglog method
             FrmFileName frmFileName = new FrmFileName();
             frmFileName.ShowDialog();
+
+            //Declaring a string variable to get the value of the text box
+            string getInput = txtInput.Text;
         }
     }
 }

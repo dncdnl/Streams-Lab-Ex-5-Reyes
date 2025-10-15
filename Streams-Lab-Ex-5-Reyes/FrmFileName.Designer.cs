@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmFileName));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtFileName = new System.Windows.Forms.TextBox();
             this.lblFileName = new System.Windows.Forms.Label();
             this.btnOkay = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtFileName
             // 
-            this.textBox1.BackColor = System.Drawing.Color.MistyRose;
-            this.textBox1.Location = new System.Drawing.Point(36, 74);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(396, 38);
-            this.textBox1.TabIndex = 0;
+            this.txtFileName.BackColor = System.Drawing.Color.MistyRose;
+            this.txtFileName.Location = new System.Drawing.Point(36, 74);
+            this.txtFileName.Multiline = true;
+            this.txtFileName.Name = "txtFileName";
+            this.txtFileName.Size = new System.Drawing.Size(396, 38);
+            this.txtFileName.TabIndex = 0;
             // 
             // lblFileName
             // 
@@ -76,7 +76,7 @@
             this.ClientSize = new System.Drawing.Size(468, 222);
             this.Controls.Add(this.btnOkay);
             this.Controls.Add(this.lblFileName);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtFileName);
             this.Name = "FrmFileName";
             this.Text = "FrmFileName";
             this.ResumeLayout(false);
@@ -86,7 +86,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtFileName;
         private System.Windows.Forms.Label lblFileName;
         private System.Windows.Forms.Button btnOkay;
     }

@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLab1));
-            this.txtinput = new System.Windows.Forms.TextBox();
+            this.txtInput = new System.Windows.Forms.TextBox();
             this.lblCreateFile = new System.Windows.Forms.Label();
             this.btnCreate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // txtinput
+            // txtInput
             // 
-            this.txtinput.BackColor = System.Drawing.Color.MistyRose;
-            this.txtinput.Location = new System.Drawing.Point(53, 78);
-            this.txtinput.Multiline = true;
-            this.txtinput.Name = "txtinput";
-            this.txtinput.Size = new System.Drawing.Size(432, 99);
-            this.txtinput.TabIndex = 0;
+            this.txtInput.BackColor = System.Drawing.Color.MistyRose;
+            this.txtInput.Location = new System.Drawing.Point(53, 78);
+            this.txtInput.Multiline = true;
+            this.txtInput.Name = "txtInput";
+            this.txtInput.Size = new System.Drawing.Size(432, 99);
+            this.txtInput.TabIndex = 0;
             // 
             // lblCreateFile
             // 
@@ -77,7 +77,7 @@
             this.ClientSize = new System.Drawing.Size(527, 314);
             this.Controls.Add(this.btnCreate);
             this.Controls.Add(this.lblCreateFile);
-            this.Controls.Add(this.txtinput);
+            this.Controls.Add(this.txtInput);
             this.Name = "FrmLab1";
             this.Text = "FrmLab1";
             this.ResumeLayout(false);
@@ -87,7 +87,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtinput;
+        private System.Windows.Forms.TextBox txtInput;
         private System.Windows.Forms.Label lblCreateFile;
         private System.Windows.Forms.Button btnCreate;
     }
